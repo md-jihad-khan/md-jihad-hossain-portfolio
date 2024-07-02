@@ -52,7 +52,7 @@ const Home = () => {
 
           <div className="mt-5 flex flex-col md:flex-row justify-center items-center gap-5 md:gap-8 lg:justify-start">
             <Link
-              href={"/resume.pdf"}
+              href={"Resume.pdf"}
               download
               target="blank"
               className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
