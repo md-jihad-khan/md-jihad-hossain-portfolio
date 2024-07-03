@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className="mt-20 container mx-auto">
+    <div id="projects" className="mt-20 container mx-auto">
       <h3 className="text-5xl text-center font-bold bg-gradient-to-r from-yellow-500 h-14  to-orange-500 bg-clip-text text-transparent ">
         Project{"'"}s
       </h3>

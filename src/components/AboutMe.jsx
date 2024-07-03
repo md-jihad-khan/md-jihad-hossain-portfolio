@@ -7,7 +7,10 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center ">
+    <div
+      id="about"
+      className="flex flex-col md:flex-row items-center justify-center "
+    >
       <div className="md:w-1/2 p-10">
         <Lottie animationData={about} loop={true} />
       </div>

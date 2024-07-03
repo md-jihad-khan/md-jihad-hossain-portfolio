@@ -19,7 +19,10 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex text-center mt-20 md:text-left md:flex-row flex-col-reverse  container mx-auto items-center justify-center">
+      <div
+        id="home"
+        className="flex text-center mt-20 md:text-left md:flex-row flex-col-reverse  container mx-auto items-center justify-center"
+      >
         {/* info */}
         <div className="md:w-1/2 ">
           <p className="text-xl">Hi, I am</p>

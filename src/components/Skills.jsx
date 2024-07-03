@@ -24,11 +24,11 @@ const Skills = () => {
     { name: "DaisyUI", icon: SiDaisyui },
   ];
   return (
-    <div className="container mx-auto mt-24">
+    <div id="skills" className="container mx-auto mt-24">
       <h3 className="text-5xl text-center font-bold  bg-gradient-to-r from-yellow-500  to-orange-500 bg-clip-text text-transparent ">
         My Skill{"'"}s
       </h3>
-      {/* project 1 */}
+
       <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-center ">
         <div className="grid grid-cols-4 text-center p-5 md:w-1/2 gap-5">
           {technologies.map((tech, index) => (
