@@ -1,5 +1,6 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -15,7 +16,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="icon" href="../assets/my-photo.png" />
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="ZhLEtmE8mTFqOlssBqVAuMB54EaMSAaJErgk4X_zt-Y"
+        />
+        <link rel="icon" href="../assets/my-photo.png" />
+      </Head>
       <body className={poppins.className} suppressHydrationWarning={true}>
         {children}
       </body>

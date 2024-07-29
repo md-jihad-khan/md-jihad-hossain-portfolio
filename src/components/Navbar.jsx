@@ -18,7 +18,7 @@ const Navbar = () => {
       </button>
 
       <ul
-        className={`flex items-center md:justify-center absolute md:translate-x-0 backdrop-blur-sm p-10 bg-white/5 w-full flex-col md:flex-row gap-5 md:gap-10 ease-in-out duration-300 ${
+        className={`flex items-center md:justify-center absolute md:translate-x-0 backdrop-blur-sm p-10  w-full flex-col md:flex-row gap-5 md:gap-10 ease-in-out duration-300 ${
           open ? "translate-x-0" : "translate-x-full"
         } `}
       >
