@@ -17,11 +17,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        <meta charSet="UTF-8" />
         <meta
           name="google-site-verification"
           content="ZhLEtmE8mTFqOlssBqVAuMB54EaMSAaJErgk4X_zt-Y"
         />
-        <link rel="icon" href="../assets/my-photo.png" />
+        <meta name="description" content={metadata.description} />
+        <title>{metadata.title}</title>
+        <link rel="icon" href="/assets/my-photo.png" />
       </Head>
       <body className={poppins.className} suppressHydrationWarning={true}>
         {children}
