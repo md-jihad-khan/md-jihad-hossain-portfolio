@@ -8,22 +8,25 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  robots: { index: false, follow: false },
   title: "Md Jihad Hossain - Portfolio Website",
   description:
     "Web Developer with Expertise in Front end Development in React JS and working in MERN Stack. Successfully architected and implemented responsive, user-friendly UI and engineered seamless user experiences. Skilled in troubleshooting and diagnosing issues. Experienced in collaborating with cross-functional teams",
+  verification: {
+    google: "ZhLEtmE8mTFqOlssBqVAuMB54EaMSAaJErgk4X_zt-Y",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <meta charSet="UTF-8" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
         <meta
           name="google-site-verification"
-          content="ZhLEtmE8mTFqOlssBqVAuMB54EaMSAaJErgk4X_zt-Y"
+          content={metadata.verification.google}
         />
-        <meta name="description" content={metadata.description} />
-        <title>{metadata.title}</title>
         <link rel="icon" href="/assets/my-photo.png" />
       </Head>
       <body className={poppins.className} suppressHydrationWarning={true}>
