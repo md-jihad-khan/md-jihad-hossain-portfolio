@@ -26,7 +26,8 @@ export default function RootLayout({ children }) {
         <meta
           name="google-site-verification"
           content={metadata.verification.google}
-        />
+        />{" "}
+        <meta name="robots" content="index,follow" />
         <link rel="icon" href="/assets/my-photo.png" />
       </Head>
       <body className={poppins.className} suppressHydrationWarning={true}>

@@ -46,7 +46,7 @@ const Footer = () => {
           </span>
         </Link>
       </div>
-      <div className="mt-4 text-center text-yellow-400">
+      <div className="mt-4 text-sm md:text-base text-center text-yellow-400">
         <span className="text-gray-400 mr-2">Contact me by: </span>
         mdjihadkhan9867@gmail.com
       </div>
