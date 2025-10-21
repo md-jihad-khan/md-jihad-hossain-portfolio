@@ -8,7 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true }, // ✅ Fixed
   title: "Md Jihad Hossain - Portfolio Website",
   description:
     "Web Developer with Expertise in Front end Development in React JS and working in MERN Stack. Successfully architected and implemented responsive, user-friendly UI and engineered seamless user experiences. Skilled in troubleshooting and diagnosing issues. Experienced in collaborating with cross-functional teams",
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <meta
           name="google-site-verification"
           content={metadata.verification.google}
-        />{" "}
+        />
         <meta name="robots" content="index,follow" />
         <link rel="icon" href="/assets/my-photo.png" />
       </Head>
